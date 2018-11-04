@@ -5,6 +5,7 @@ git clone https://github.com/L0KER/openrat.git
 [+]RUN
 
 python2 openrat.py
+run file reload.py for reload scripts: client and connect
 
 [+]OTHER INFORMATION
 
